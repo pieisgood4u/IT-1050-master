@@ -1,0 +1,12 @@
+C:\Users\Jacob\Desktop\Programing-Logic-class\Solution1\Program1\bin\Debug\Program1.exe.config
+C:\Users\Jacob\Desktop\Programing-Logic-class\Solution1\Program1\bin\Debug\Program1.exe
+C:\Users\Jacob\Desktop\Programing-Logic-class\Solution1\Program1\bin\Debug\Program1.pdb
+C:\Users\Jacob\Desktop\Programing-Logic-class\Solution1\Program1\obj\Debug\Program1.csprojResolveAssemblyReference.cache
+C:\Users\Jacob\Desktop\Programing-Logic-class\Solution1\Program1\obj\Debug\Program1.exe
+C:\Users\Jacob\Desktop\Programing-Logic-class\Solution1\Program1\obj\Debug\Program1.pdb
+C:\Users\s01099378\Documents\GitHub\Programing-Logic-class\Solution1\Program1\bin\Debug\Program1.exe.config
+C:\Users\s01099378\Documents\GitHub\Programing-Logic-class\Solution1\Program1\obj\Debug\Program1.exe
+C:\Users\s01099378\Documents\GitHub\Programing-Logic-class\Solution1\Program1\obj\Debug\Program1.pdb
+C:\Users\s01099378\Documents\GitHub\Programing-Logic-class\Solution1\Program1\bin\Debug\Program1.exe
+C:\Users\s01099378\Documents\GitHub\Programing-Logic-class\Solution1\Program1\bin\Debug\Program1.pdb
+C:\Users\s01099378\Documents\GitHub\Programing-Logic-class\Solution1\Program1\obj\Debug\Program1.csprojResolveAssemblyReference.cache
