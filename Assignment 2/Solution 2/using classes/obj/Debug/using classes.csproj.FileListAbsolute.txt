@@ -1,0 +1,6 @@
+C:\Users\Jacob\Desktop\IT-1050-master\Assignment 2\Solution 2\using classes\bin\Debug\using classes.exe.config
+C:\Users\Jacob\Desktop\IT-1050-master\Assignment 2\Solution 2\using classes\bin\Debug\using classes.exe
+C:\Users\Jacob\Desktop\IT-1050-master\Assignment 2\Solution 2\using classes\bin\Debug\using classes.pdb
+C:\Users\Jacob\Desktop\IT-1050-master\Assignment 2\Solution 2\using classes\obj\Debug\using classes.csprojResolveAssemblyReference.cache
+C:\Users\Jacob\Desktop\IT-1050-master\Assignment 2\Solution 2\using classes\obj\Debug\using classes.exe
+C:\Users\Jacob\Desktop\IT-1050-master\Assignment 2\Solution 2\using classes\obj\Debug\using classes.pdb
