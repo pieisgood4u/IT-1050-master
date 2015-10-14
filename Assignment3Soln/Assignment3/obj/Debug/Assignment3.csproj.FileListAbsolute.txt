@@ -1,0 +1,6 @@
+C:\Users\s01099378\Desktop\IT-1050-master\Assignment3Soln\Assignment3\bin\Debug\Assignment3.exe.config
+C:\Users\s01099378\Desktop\IT-1050-master\Assignment3Soln\Assignment3\bin\Debug\Assignment3.exe
+C:\Users\s01099378\Desktop\IT-1050-master\Assignment3Soln\Assignment3\bin\Debug\Assignment3.pdb
+C:\Users\s01099378\Desktop\IT-1050-master\Assignment3Soln\Assignment3\obj\Debug\Assignment3.csprojResolveAssemblyReference.cache
+C:\Users\s01099378\Desktop\IT-1050-master\Assignment3Soln\Assignment3\obj\Debug\Assignment3.exe
+C:\Users\s01099378\Desktop\IT-1050-master\Assignment3Soln\Assignment3\obj\Debug\Assignment3.pdb
