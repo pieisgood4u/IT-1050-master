@@ -17,7 +17,9 @@ namespace Program4
 
         public static bool askYesOrNo(string prompt)
         {
-            return prompt.Contains("Y");
+            Console.WriteLine();
+            Console.Write(prompt);
+            return Console.ReadLine().Contains("y");
         }
     }
 }

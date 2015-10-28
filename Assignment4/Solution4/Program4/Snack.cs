@@ -18,5 +18,10 @@ namespace Program4
             Price = price;
         }
 
+        public void AskAmmount()
+        {
+            this.Count = Question.askQuestion("How many" + this.Name + "s do you want? ");
+        }
+
     }
 }

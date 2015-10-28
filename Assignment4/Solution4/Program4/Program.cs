@@ -22,20 +22,29 @@ namespace Program4
 
             Console.WriteLine("Welcome to Cinemark Valley View!");
 
-            int time = Question.askQuestion("What time is it? (0 - 2399 hours");
+            int time = Question.askQuestion("What time is it? (0 - 2399 hours): ");
 
-            if (time <= 1730)
+            if (time >= 1400 && time <= 1730)
             {
-                int numberChild = Question.askQuestion("How many children tickets?");
-                int numberAdult = Question.askQuestion("How many adult tickets?");
-                int numberSenior = Question.askQuestion("How many senior tickets?");
+                int numberChild = Question.askQuestion("How many children tickets? ");
+                int numberAdult = Question.askQuestion("How many adult tickets? ");
+                int numberSenior = Question.askQuestion("How many senior tickets? ");
                 
-                bool wantSnack = Question.askYesOrNo("Would you like to buy some snacks?");
+                bool wantSnack = Question.askYesOrNo("Would you like to buy some snacks? ");
                 
                 if (wantSnack == true)
                 {
-                    int 
+                    SmallSoda.AskAmmount();
+                    LargeSoda.AskAmmount();
+                    HotDog.AskAmmount();
+                    Popcorn.AskAmmount();
+                    Candy.AskAmmount();
                 }
+
+            }
+
+            else
+            {
 
             }
         }
