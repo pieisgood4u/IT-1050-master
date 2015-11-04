@@ -26,27 +26,38 @@ namespace Program4
 
             if (time >= 1400 && time <= 1730)
             {
-                int numberChild = Question.askQuestion("How many children tickets? ");
-                int numberAdult = Question.askQuestion("How many adult tickets? ");
-                int numberSenior = Question.askQuestion("How many senior tickets? ");
-                
-                bool wantSnack = Question.askYesOrNo("Would you like to buy some snacks? ");
-                
-                if (wantSnack == true)
-                {
-                    SmallSoda.AskAmmount();
-                    LargeSoda.AskAmmount();
-                    HotDog.AskAmmount();
-                    Popcorn.AskAmmount();
-                    Candy.AskAmmount();
-                }
-
+                ChildMatinee.AskAmmount();
+                AdultMatinee.AskAmmount();
+                SeniorMatinee.AskAmmount();
             }
 
             else
             {
-
+                ChildEvening.AskAmmount();
+                AdultEvening.AskAmmount();
+                SeniorEvening.AskAmmount();
             }
+
+            bool wantSnack = Question.askYesOrNo("Would you like to buy some snacks? ");
+
+            if (wantSnack == true)
+            {
+                SmallSoda.AskAmmount();
+                LargeSoda.AskAmmount();
+                HotDog.AskAmmount();
+                Popcorn.AskAmmount();
+                Candy.AskAmmount();
+            }
+
+            // candy discount = numb candies / 4 * 6.99
+            //
+            Console.WriteLine();
+            double ticketTotal = ChildMatinee.Cost() + AdultMatinee.Cost() + SeniorMatinee.Cost() + ChildEvening.Cost() + AdultEvening.Cost() + SeniorEvening.Cost();
+            double snackTotal = SmallSoda.Cost() + LargeSoda.Cost() + HotDog.Cost() + Popcorn.Cost() + Candy.Cost();
+
+
+            
+
         }
     }
 }

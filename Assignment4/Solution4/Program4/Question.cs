@@ -21,5 +21,6 @@ namespace Program4
             Console.Write(prompt);
             return Console.ReadLine().Contains("y");
         }
-    }
+
+    }   
 }
