@@ -10,7 +10,7 @@ namespace Program4
     {
         private string Name;
         private double Price;
-        private int Count;
+        public int Count;
         
 
         public Snack(string name, double price)

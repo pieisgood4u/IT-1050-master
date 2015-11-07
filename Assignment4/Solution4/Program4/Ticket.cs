@@ -6,7 +6,7 @@ namespace Program4
     {
         private double Price;
         private string Label;
-        private int count;
+        public int count;
         
 
         public Ticket(string name, double price)

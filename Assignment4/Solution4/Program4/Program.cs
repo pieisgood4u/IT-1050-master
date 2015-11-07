@@ -48,16 +48,34 @@ namespace Program4
                 Popcorn.AskAmmount();
                 Candy.AskAmmount();
             }
-
-            // candy discount = numb candies / 4 * 6.99
-            //
             Console.WriteLine();
+            int eveningTotal = ChildEvening.count + AdultEvening.count + SeniorEvening.count;
             double ticketTotal = ChildMatinee.Cost() + AdultMatinee.Cost() + SeniorMatinee.Cost() + ChildEvening.Cost() + AdultEvening.Cost() + SeniorEvening.Cost();
             double snackTotal = SmallSoda.Cost() + LargeSoda.Cost() + HotDog.Cost() + Popcorn.Cost() + Candy.Cost();
+            double totalCost = ticketTotal + snackTotal;
 
+            if (eveningTotal >= 3 && Popcorn.Count >= 1)
+            {
+                totalCost = totalCost - 4.50;
+            }
 
+            if (Candy.Count >= 4)
+            {
+                totalCost = totalCost - ((Candy.Count / 4) * 1.99);
+            }
             
+            if (Popcorn.Count <= LargeSoda.Count)
+            {
+                totalCost = totalCost - (Popcorn.Count * 2);
+            }
+            else
+            {
+                totalCost = totalCost - (LargeSoda.Count * 2);
+            }
 
+            Console.WriteLine("Your total for today is " + totalCost);
+            Console.WriteLine("Enjoy your movie!");
+            Console.ReadKey();
         }
     }
 }
