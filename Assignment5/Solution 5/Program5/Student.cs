@@ -6,10 +6,14 @@ using System.Threading.Tasks;
 
 namespace Program5
 {
-    class Student
+    public class Student
     {
         public string Name;
-        public string SNumber;
+        public int SNumber;
 
+        public void Print()
+        {
+            System.Console.WriteLine("[" + this.Name + "] " + this.SNumber);
+        }
     }
 }

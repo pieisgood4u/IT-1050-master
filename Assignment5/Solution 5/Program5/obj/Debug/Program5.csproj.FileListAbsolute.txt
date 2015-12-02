@@ -1,1 +1,6 @@
+C:\Users\s01099378\Desktop\IT-1050-master\Assignment5\Solution 5\Program5\obj\Debug\Program5.csprojResolveAssemblyReference.cache
 C:\Users\s01099378\Desktop\IT-1050-master\Assignment5\Solution 5\Program5\bin\Debug\Program5.exe.config
+C:\Users\s01099378\Desktop\IT-1050-master\Assignment5\Solution 5\Program5\bin\Debug\Program5.exe
+C:\Users\s01099378\Desktop\IT-1050-master\Assignment5\Solution 5\Program5\bin\Debug\Program5.pdb
+C:\Users\s01099378\Desktop\IT-1050-master\Assignment5\Solution 5\Program5\obj\Debug\Program5.exe
+C:\Users\s01099378\Desktop\IT-1050-master\Assignment5\Solution 5\Program5\obj\Debug\Program5.pdb

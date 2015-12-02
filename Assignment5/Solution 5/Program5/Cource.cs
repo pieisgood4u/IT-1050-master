@@ -6,11 +6,15 @@ using System.Threading.Tasks;
 
 namespace Program5
 {
-    class Cource
+    public class Cource
     {
         public string name;
-        public int CRN;
-        public string[] arrayOfStudents;
+        public string CRN;
+        public Student[] Students;
 
+        public void Print()
+        {
+            System.Console.WriteLine("[" + this.name + "] " + this.CRN);
+        }
     }
 }
